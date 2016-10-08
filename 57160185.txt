@@ -1,0 +1,24 @@
+7.abbr_statesed = Hash.new( "abbr_states" )
+abbr_statesed = { "AK" => "Alaska" , "AL" => "Alabama", "AR" => "Arkansas" ,  "AS" =>       "American Samoa",  "AZ" => "Arizona" ,  "CA" => "California" , "CO" => "Colorado" ,
+               "CT" => "Connecticut" , "DC" => "District of Columbia" , "DE" => "Delaware" , "FL" => "Florida" ,"GA" => "Georgia" , "GU" => "Guam" , "HI" => "Hawaii", 
+               "IA" => "Iowa" ,  "ID" => "Idaho" ,  "IL" => "Illinois" ,  "IN" => "Indiana" , "KS" => "Kansas" ,  "KY" => "Kentucky",  "LA" => "Louisiana" ,  "MA" => "Massachusetts", 
+                "MD" => "Maryland" ,  "ME" => "Maine" , "MI" => "Michigan" ,"MN" => "Minnesota" ,  "MO" => "Missouri" , "MS" => "Mississippi",  "MT" => "Montana" , 
+                "NC" => "North Carolina" ,  "ND" => "North Dakota" ,  "NE" => "Nebraska" , "NH" => "New Hampshire" ,   "NJ" => "New Jersey", "NM" => "New Mexico",  "NV" => "Nevada" ,
+                "NY" => "New York",  "OH" => "Ohio" ,  "OK" => "Oklahoma" ,  "OR" => "Oregon" ,  "PA" => "Pennsylvania" , "PR" => "Puerto Rico" , "RI" => "Rhode Island",
+                "SC" => "South Carolina" , "SD" => "South Dakota" ,  "TN" => "Tennessee" ,  "TX" => "Texas" ,  "UT" => "Utah" ,  "VA" => "Virginia" , "VI" => "Virgin Islands" , 
+               "VT" => "Vermont", "WA" => "Washington" , "WI" => "Wisconsin" ,  "WV" => "West Virginia",   "WY" => "Wyoming" }               
+values =abbr_statesed.values
+keys = abbr_statesed.keys
+puts "#{keys},#{values}"
+
+11.ช่วยให้คุณสามารถย้อนไฟล์บางไฟล์หรือแม้กระทั่งทั้งโปรเจคกลับไปเป็นเวอร์ชั่นเก่าได้ นอกจากนั้นระบบ VCS ยังช่วยเปรียบเทียบการแก้ไขที่เกิดขึ้นในอดีต
+ ดูว่าใครเป็นคนแก้ไขคนสุดท้ายที่อาจทำให้เกิดปัญหา แก้ไขเมื่อไร ฯลฯ และยังช่วยกู้คืนไฟล์ที่ลบหรือทำเสียโดยไม่ตั้งใจได้
+12.ก๊อปปี้ได้ทั้งหมดของ repository เลย หมายความว่าถึงแม้ว่าเซิร์ฟเวอร์จะเสีย client ก็ยังสามารถทำงานร่วมกันได้ต่อไป และ repository เหล่านี้ของ client ยังสามารถถูกก๊อปปี้กลับไปที่เซิร์ฟเวอร์เพื่อกูข้อมูลกลับคืนก็ได้ การ checkout แต่ละครั้งคือการทำสำรองข้อมูลทั้งหมดแบบเต็ม ๆ 
+13.กคนสามารถรู้ได้ว่าคนอื่นในโปรเจคกำลังทำอะไร ผู้ควบคุมระบบสามารถควบคุมได้อย่างละเอียดว่าใครสามารถแก้ไขอะไรได้บ้าง การจัดการแบบรวมศูนย์ในที่เดียว
+14.
+15.
+16.Git คือ Version Control ตัวหนึ่ง ซึ่งเป็นระบบที่มีหน้าที่ในการจัดเก็บการเปลี่ยนแปลงของไฟล์ในโปรเจ็คเรา มีการ backup code ให้เราสามารถที่จะเรียกดูหรือย้อนกลับไปดูเวอร์ชั่นต่างๆของโปรเจ็คที่ใด เวลาใดก็ได้ หรือแม้แต่ดูว่าไฟล์นั้นๆใครเป็นคนเพิ่มหรือแก้ไข หรือว่าจะดูว่าไฟล์นั้นๆถูกเขียนโดยใครบ้างก็สามารถทำได้
+Github เป็นเว็บเซิฟเวอร์ที่ให้บริการในการฝากไฟล์ Git ใช้ฟรี และสร้าง repository ได้ไม่จำกัด แต่ต้องเป็น public repository เท่านั้น
+17.เป็น feature ที่ช่วยให้นักพัฒนาสามารถที่จะทำงานได้สะดวกขึ้น
+19.รวมโค๊ดจาก remote มายัง local
+20.
